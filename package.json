@@ -1,0 +1,56 @@
+{
+  "name": "bloggify-theme-simple",
+  "version": "1.0.8",
+  "description": "A minimalist Bloggify theme.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BloggifyThemes/simple.git"
+  },
+  "keywords": [
+    "bloggify",
+    "theme",
+    "simple"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BloggifyThemes/simple/issues"
+  },
+  "homepage": "https://github.com/BloggifyThemes/simple#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "scripts/",
+    "views/",
+    "public/",
+    "cli.js",
+    "index.js"
+  ],
+  "bloggify": {
+    "templates": [
+      "views/404.ajs",
+      "views/500.ajs",
+      "views/article.ajs",
+      "views/blog-page.ajs",
+      "views/site-page.ajs"
+    ],
+    "styles": [
+      "lib/style.css"
+    ],
+    "data": {
+      "social": {}
+    }
+  },
+  "dependencies": {
+    "bag.css": "^1.0.5"
+  }
+}

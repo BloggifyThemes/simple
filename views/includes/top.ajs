@@ -1,0 +1,9 @@
+<div class="header bag fixed">
+    <div class="text-center">
+        <a href="/">
+            <img class="logo-img" src="<%= _public('/images/logo.png') %>">
+        </a>
+        <h1><%= siteMetadata.siteTitle %></h1>
+        <h2><%- siteMetadata.description %></h2>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<% if (article.visible !== false) { %>
+<article class="article-item <%= article.title ? "with-title" : "without-title" %>">
+    <% if (article.date) { %>
+        <span class="date"><%= article.date.format("dddd, MMMM D YYYY") %></span>
+    <% } %>
+    <% if (article.title) { %>
+        <a href="<%= article.path %>" class="article-title">
+            <h1><%= article.title %></h1>
+        </a>
+    <% } %>
+    <div class="article-content markdown">
+        <% if (article.metadata.html) { %>
+            <%- article.markdown %>
+        <% } else { %>
+            <%- article.html %>
+        <% }  %>
+
+    </div>
+    <a href="<%= article.path %>" class="read-more bottom">
+        Read more »
+    </a>
+</article>
+<% } %>

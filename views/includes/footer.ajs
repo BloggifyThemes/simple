@@ -1,0 +1,15 @@
+        </div>
+        <% if (typeof hideFooter === "undefined") { %>
+        <footer>
+            <div class="bag fixed">
+                <%
+                    var now = new Date();
+                    var year = now.getFullYear();
+                %>
+                <div class="footer text-center">&copy; <%= (year).toString() %> • Powered by <a href="https://bloggify.org">Bloggify</a>.
+                </div>
+            </div>
+        </footer>
+        <% } %>
+    </body>
+</html>

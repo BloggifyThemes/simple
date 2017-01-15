@@ -1,0 +1,10 @@
+<% include("includes/header") %>
+<% include("includes/top") %>
+
+<div class="container">
+    <div class="content single-article">
+        <% include("includes/article", { article: page }) %>
+    </div>
+</div>
+
+<% include("includes/footer") %>
