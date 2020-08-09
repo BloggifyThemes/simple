@@ -1,6 +1,6 @@
 {
   "name": "bloggify-theme-simple",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A minimalist Bloggify theme.",
   "main": "lib/index.js",
   "scripts": {
